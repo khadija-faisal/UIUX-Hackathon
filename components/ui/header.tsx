@@ -11,7 +11,7 @@ function Header() {
     };
   return (
     <>
-    <header className="bg-[url('/images/hero1.svg')] bg-cover gap-3 flex lg:flex-col justify-center items-center bg-center p-5">
+    <header className="bg-[url('/images/hero1.svg')] bg-cover gap-3 flex lg:flex-col justify-center w-screen items-center bg-center p-5">
         <div className="flex items-center lg:justify-center w-[70%] sm:w-[40%] lg:w-[100%]">
         <h2 className=" text-primary1 text-2xl font-bold">
         Food<span className=" text-text">tuck</span>
@@ -28,22 +28,22 @@ function Header() {
                 </Link>
             </li>
             <li className=" font-inter font-normal text-base text-text">
-                <Link href="/">
+                <Link href="/menu">
                   Menu
                 </Link>
             </li>
             <li className=" font-inter font-normal text-base text-white">
-                <Link href="/">
+                <Link href="/blog">
                   Blog
                 </Link>
             </li>
             <li className=" font-inter font-normal text-base text-white">
-                <Link href="/">
-                  Pages
+                <Link href="/signup">
+                  Sign Up
                 </Link>
             </li>
             <li className=" font-inter font-normal text-base text-text">
-                <Link href="/">
+                <Link href="/about">
                   About
                 </Link>
             </li>
@@ -53,8 +53,8 @@ function Header() {
                 </Link>
             </li>
             <li className=" font-inter font-normal text-base text-text">
-                <Link href="/">
-                  Contact
+                <Link href="/chef">
+                 Our Chef's
                 </Link>
             </li>
            
@@ -120,6 +120,21 @@ function Header() {
               </li>
               <li className="hover:text-primary1 hover:underline">
                 <Link href="/cart ">Cart</Link>
+              </li>
+              <li className="hover:text-primary1 hover:underline">
+                <Link href="/menu ">Menu</Link>
+              </li>
+              <li className="hover:text-primary1 hover:underline">
+                <Link href="/checkout ">Check Out</Link>
+              </li>
+              <li className="hover:text-primary1 hover:underline">
+                <Link href="/blog ">Blog</Link>
+              </li>
+              <li className="hover:text-primary1 hover:underline">
+                <Link href="/signup ">Sign Up</Link>
+              </li>
+              <li className="hover:text-primary1 hover:underline">
+                <Link href="/about ">About Us</Link>
               </li>
             </ul>
           </div>

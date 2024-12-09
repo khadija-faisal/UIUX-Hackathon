@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import { Button } from './button';
 function Hero() {
   return (
     <main className=" h-full py-20 w-screen flex flex-col md:flex-row items-center bg-[url('/images/hero1.svg')] bg-cover bg-center">
@@ -25,6 +26,9 @@ function Hero() {
  </h1>
  <p className=' text-text font-inter font-light text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
  Varius sed pharetra dictum neque massa congue</p>
+ <Button variant="outline"
+ className=' bg-primary1 text-text w-36 border-none rounded-full'
+ >Button</Button>
  </div>
 </div>
 </div>

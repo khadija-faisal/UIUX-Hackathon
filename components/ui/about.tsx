@@ -1,8 +1,8 @@
-
+import { Button } from "./button";
 import Image from "next/image";
 function About() {
   return (
-<main className="h-full py-16 w-screen flex flex-col md:flex-row items-center bg-[#080808]">
+<main className="h-full py-16 w-screen flex flex-col md:flex-row gap-5 items-center bg-[#080808]">
 <div className=' flex w-[80%] md:w-1/2 justify-center items-center lg:justify-end'>
 <div className=' flex flex-col gap-4 justify-end items-center w-[80%]'>
     
@@ -45,6 +45,9 @@ function About() {
     />
      Lorem ipsum dolor sit amet, consectetur adipiscing elit
  </span>
+ <Button variant="outline"
+ className=' bg-primary1 text-text w-36 border-none rounded-full'
+ >Button</Button>
  </div>
  </div>
 </div>

@@ -3,15 +3,15 @@ import Image from 'next/image';
 
 const Footer = () => {  
   return (  
-    <footer className="bg-black gap-16 flex flex-col justify-center items-center text-white py-8 px-4">  
+    <footer className="bg-black gap-16 flex flex-col justify-center items-center text-center lg:text-start text-text py-8 px-4">  
 
 
-<div className=" flex lg:flex-row flex-col justify-between w-[75%]">
-<div className=' flex  flex-col'>  
-                    <h2 className="text-xl font-bold">Still You Need Our Support?</h2>  
+<div className=" flex lg:flex-row flex-col justify-center items-center  gap-2 lg:justify-between w-[75%]">
+<div className=' flex gap-2  flex-col'>  
+                    <h2 className="text-xl font-bold"><span className='text-primary1'>St</span>ill You Need Our Support?</h2>  
                     <p className="mt-2">Don’t wait make a smart & logical quote here. It’s pretty easy.</p>  
                     </div>
-                    <div className="p-4 mt-4 flex">  
+                    <div className="flex mt-2 ">  
                         <input   
                             type="email"   
                             placeholder="Enter Your Email"   
@@ -22,9 +22,9 @@ const Footer = () => {
                     </div>  
                 
 </div>
-
+ <div className=' h-[1px] bg-primary1 w-[90%]'></div>
       <div className=" w-[80%] gap-5 flex flex-col md:flex-row justify-center items-center md:items-start">  
-       {/* Middle Section */}  
+    
         <div className="flex items-center justify-center md:items-start md:w-[30%] gap-3 flex-col">  
           <h3 className="text-lg font-bold">About Us.</h3>  
           <p className="text-gray-400 mb-4 text-sm lg:base ">  
@@ -49,12 +49,12 @@ const Footer = () => {
         <div className="flex items-center md:items-start  md:w-[15%] gap-2 flex-col">  
           <h3 className="text-lg font-bold">Useful Links</h3>  
           <ul className=" flex items-center md:items-start flex-col text-sm lg:base gap-4 text-gray-400">  
-            <li><a href="#" className="hover:text-orange-400">About</a></li>  
-            <li><a href="#" className="hover:text-orange-400">News</a></li>  
-            <li><a href="#" className="hover:text-orange-400">Partners</a></li>  
-            <li><a href="#" className="hover:text-orange-400">Team</a></li>  
-            <li><a href="#" className="hover:text-orange-400">Menu</a></li>  
-            <li><a href="#" className="hover:text-orange-400">Contacts</a></li>  
+            <li><a href="#" className="hover:text-primary1">About</a></li>  
+            <li><a href="#" className="hover:text-primary1">News</a></li>  
+            <li><a href="#" className="hover:text-primary1">Partners</a></li>  
+            <li><a href="#" className="hover:text-primary1">Team</a></li>  
+            <li><a href="#" className="hover:text-primary1">Menu</a></li>  
+            <li><a href="#" className="hover:text-primary1">Contacts</a></li>  
           </ul>  
         </div>  
 
@@ -62,12 +62,12 @@ const Footer = () => {
         <div className="flex items-center md:items-start justify-center md:w-[20%] gap-2 flex-col ">  
           <h3 className="text-lg font-bold">Help?</h3>  
           <ul className="flex flex-col items-center md:items-start text-sm lg:base  gap-4 text-gray-400">  
-            <li><a href="#" className="hover:text-orange-400">FAQ</a></li>  
-            <li><a href="#" className="hover:text-orange-400">Terms & Conditions</a></li>  
-            <li><a href="#" className="hover:text-orange-400">Reporting</a></li>  
-            <li><a href="#" className="hover:text-orange-400">Documentation</a></li>  
-            <li><a href="#" className="hover:text-orange-400">Support Policy</a></li>  
-            <li><a href="#" className="hover:text-orange-400">Privacy</a></li>  
+            <li><a href="#" className="hover:text-primary1">FAQ</a></li>  
+            <li><a href="#" className="hover:text-primary1">Terms & Conditions</a></li>  
+            <li><a href="#" className="hover:text-primary1">Reporting</a></li>  
+            <li><a href="#" className="hover:text-primary1">Documentation</a></li>  
+            <li><a href="#" className="hover:text-primary1">Support Policy</a></li>  
+            <li><a href="#" className="hover:text-primary1">Privacy</a></li>  
           </ul>  
         </div>  
         
@@ -75,9 +75,9 @@ const Footer = () => {
         <div className="flex items-center md:items-start md:w-[25%] gap-2 flex-col">  
           <h3 className="text-lg font-bold">Recent Posts</h3>  
           <ul className="flex items-center md:items-start flex-col text-sm lg:base  gap-4 text-gray-400">  
-            <li>20 Feb 2022 - <a href="#" className="hover:text-orange-400">Keep Your Business</a></li>  
-            <li>20 Feb 2022 - <a href="#" className="hover:text-orange-400">Keep Your Business</a></li>  
-            <li>20 Feb 2022 - <a href="#" className="hover:text-orange-400">Keep Your Business</a></li>  
+            <li>20 Feb 2022 - <a href="#" className="hover:text-primary1">Keep Your Business</a></li>  
+            <li>20 Feb 2022 - <a href="#" className="hover:text-primay1">Keep Your Business</a></li>  
+            <li>20 Feb 2022 - <a href="#" className="hover:text-primary1">Keep Your Business</a></li>  
           </ul>  
         </div>  
       </div>  
