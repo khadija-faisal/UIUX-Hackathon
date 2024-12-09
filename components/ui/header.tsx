@@ -54,7 +54,7 @@ function Header() {
             </li>
             <li className=" font-inter font-normal text-base text-text">
                 <Link href="/chef">
-                 Our Chef's
+                 Our Chef&apos;s
                 </Link>
             </li>
            
