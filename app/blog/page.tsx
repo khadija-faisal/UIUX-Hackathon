@@ -22,7 +22,7 @@ function BlogPage() {
           </span>
         </div>
       </div>
-    <div className=" w-[90%] py-16 flex gap-10 justify-center items-center">
+    <div className=" w-[90%] py-16 flex gap-10 justify-center ">
           <div className=" flex flex-col gap-10  ">
             <div className=" flex flex-col gap-3">
                <Image
